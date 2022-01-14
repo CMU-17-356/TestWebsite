@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Just the Class
+title: Software Engineering for Startups
 nav_exclude: true
 seo:
   type: Course
-  name: Just the Class
+  name: Software Engineering for Startups
 ---
 
 # {{ site.tagline }}
@@ -17,49 +17,30 @@ seo:
 [Announcements](announcements.md){: .btn .btn-outline .fs-3 }
 {% endif %}
 
-## Just the Class
 
-Just the Class is a GitHub Pages template developed for the purpose of quickly deploying course websites. In addition to serving plain web pages and files, it provides a boilerplate for:
 
-- a [course calendar](calendar.md),
-- a [staff](staff.md) page,
-- and a weekly [schedule](schedule.md).
+Course Description
+Startup engineering is critical to innovation. The skills required to effectively prototype, launch, and scale products are vital to engineers everywhere, from fledgling companies founded in dorm rooms to local mid-size companies to internal startups from multi-national tech giants. However, developing software in a startup environment poses unique engineering challenges. These challenges include making and justifying foundational architectural and technical decisions despite extreme uncertainty; rapidly prototyping and evaluating new ideas and features, while building minimum viable products; prioritizing engineering effort in severely constrained environments; and communicating effectively both within a small engineering team and with internal and external non-technical stakeholders. This course teaches the skills necessary to engineer successfully in a startup environment, through lectures, group projects, case study discussions, and guest speakers drawn from experienced, practicing startup engineers.
+Logistics and Communication
+Lectures: Tue/Thu 10:40 a.m. - 12:00 p.m. online via Ohyay
+Recitations:
+Tue @ 12:50 p.m. - 1:40 p.m. (Session A) online via Ohyay
+Tue @ 2:10 p.m. - 3:00 p.m. Mon @ 12:00 p.m. - 12:50 p.m. (Session B) online via Ohyay
 
-Just the Class is a set of customizations on top of the popular [Just the Docs](https://github.com/pmarsceill/just-the-docs) theme, which provides a robust and thoroughly-tested foundation that makes it easy to extend for your own special use cases. These foundational features include:
+Waitlist: We believe the waitlist is cleared; if you disagree or are having trouble enrolling, please contact us.
 
-- automatic [navigation structure](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/),
-- instant, full-text [search](https://pmarsceill.github.io/just-the-docs/docs/search/) and page indexing,
-- and a small but powerful set of [UI components](https://pmarsceill.github.io/just-the-docs/docs/ui-components) and authoring [utilities](https://pmarsceill.github.io/just-the-docs/docs/utilities).
+Prerequisites: 15-214/17-214 or 15-213, or equivalent. The focus of this class is largely technical; the goal of the prerequisites is to ensure students should sufficient programming experience to succeed in the course.
 
-## Getting Started
+Textbook/Readings: The subject matter of this class is at the cutting edge of engineering; as such, there do not exist (to our knowledge, at least) suitable textbooks covering the material. We will instead pull various readings throughout the semester from online sources.
 
-Getting started with Just the Class is simple.
+Communication: The course uses Canvas for homework submission, grading, announcements, and supplementary documents. Discussion and questions will be managed on Slack. Slides, assignments, and schedule will be posted on this website. We use GitHub to coordinate group work. We will provide private GitHub repositories for individuals and groups.
 
-1. Create a [new repository based on Just the Class](https://github.com/kevinlin1/just-the-class/generate).
-1. Update `_config.yml` and `index.md` with your course information. Be sure to update the `baseurl` and `url` to the appropriate paths (eg. "/20au" and "https://courses.cs.washington.edu/", respectively.).
-1. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). Your course website is now live!
-1. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add your content.
+Please use Slack for discussion and questions, including clarifying homework assignments.
 
-Just the Class has been used by instructors at Stanford University ([CS 161](https://stanford-cs161.github.io/winter2021/)), UC Berkeley ([Data 100](https://ds100.org/fa21/)), UC Santa Barbara ([DS1](https://ucsb-ds.github.io/ds1-f20/)), Northeastern University ([CS4530/5500](https://neu-se.github.io/CS4530-CS5500-Spring-2021/)), and Carnegie Mellon University ([17-450/17-950](https://cmu-crafting-software.github.io/)). For a few open-source examples, see the following course websites and their source code.
+The instructors and TAs hold weekly office hours. If you cannot make it to office hours, contact us via email (using the course-wide email address, unless the issue is sensitive) and we will find an alternative time to meet.
 
-- [CSE 390HA](https://courses.cs.washington.edu/courses/cse390ha/20au/) ([source code](https://gitlab.cs.washington.edu/cse390ha/20au/website)) is an example of a single-page website that centers modules.
-- [CSE 143](https://courses.cs.washington.edu/courses/cse143/20au/) ([source code](https://gitlab.cs.washington.edu/cse143/20au/website)) hosts an entire online textbook with full-text search.
-- [CSE 373](https://courses.cs.washington.edu/courses/cse373/21su/) ([source code](https://gitlab.cs.washington.edu/cse373-root/21su/website)) is an example of a simple website combining Markdown pages with generated HTML files.
+If you have a question or concern that is not suitable for Slack, contact the instructors via: startups-staff@lists.andrew.cmu.edu. Unless the subject matter is sensitive, all questions will be conveyed to all instructors before being answered, so there's no point in emailing just one of us.
 
-Share your course website and find more examples in the [show and tell discussion](https://github.com/kevinlin1/just-the-class/discussions/categories/show-and-tell)!
+Note that the list should be set to accept messages from any CMU email address; if your message is held as a non-member posting to a members list, don’t worry: we respond to moderation requests very quickly.
 
-Continue reading to learn how to setup a development environment on your local computer. This allows you to make incremental changes without directly modifying the live website.
-
-### Local development environment
-
-Just the Class is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special Jekyll plugins and can run on GitHub Pages' standard Jekyll compiler.
-
-1. Follow the GitHub documentation for [Setting up your GitHub Pages site locally with Jekyll](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll).
-1. Start your local Jekyll server.
-```bash
-$ bundle exec jekyll serve
-```
-1. Point your web browser to [http://localhost:4000](http://localhost:4000)
-1. Reload your web browser after making a change to preview its effect.
-
-For more information, refer to [Just the Docs](https://pmarsceill.github.io/just-the-docs/).
+For sensitive matters, of course, feel free to contact us individually.
